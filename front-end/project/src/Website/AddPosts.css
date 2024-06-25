@@ -1,0 +1,408 @@
+.write-post-container {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 15px;
+  color: #626262;
+  margin-top: 20px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-profile p {
+  margin-bottom: -5px;
+  font-weight: 500;
+  color: #626262;
+}
+
+.user-profile small {
+  font-size: 12px;
+}
+
+.post-input-container {
+  padding-left: 55px;
+  padding-top: 20px;
+}
+
+.post-input-container textarea {
+  width: 80%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  resize: none;
+}
+
+.add-post-links {
+  display: flex;
+  margin-top: 10px;
+}
+
+.upload-icon {
+  display: flex;
+  align-items: center;
+  color: #626262;
+  margin-right: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+ h6{
+  font-size: 10px;
+  margin-left: 3px;
+  margin-top: 6px;
+}
+
+.btn{
+  display: inline-block;
+  padding: var(--btn-padding);
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 300ms ease;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/*  for navBar */
+/* Main container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 24px;
+  color: #2b6ebc;
+  margin: 0;
+}
+
+/* Search bar styles */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.search-bar input[type="search"] {
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.search-bar input[type="search"]::placeholder {
+  color: #999;
+}
+
+/* Create button styles */
+.create {
+  margin-left: auto;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.btn-primary {
+  background-color: #1877F2; /* Facebook blue color */
+}
+
+/* User profile styles */
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-profile p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Upload profile image button styles */
+.upload-profile-btn {
+  background-color: #1877F2; /* Facebook blue color */
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.upload-profile-btn:hover {
+  background-color: #0d5cb6; /* Darker shade of Facebook blue */
+}
+
+/* See profile link styles */
+.user-profile a {
+  color: #1877F2; /* Facebook blue color */
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.user-profile a:hover {
+  text-decoration: underline;
+}
+/* Upload profile image button styles */
+.upload-profile-btn {
+  cursor: pointer;
+  background-color: #1877F2; /* Facebook blue color */
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.upload-profile-btn input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.upload-profile-btn:hover {
+  background-color: #0d5cb6; /* Darker shade of Facebook blue */
+}
+/* Online status dot */
+.online-status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4CAF50; /* Green */
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Adjustments to align elements */
+.user-profile div {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile div p {
+  margin-right: 5px;
+}
+/* Feeds */
+.post {
+  background: var(--color-white); /* Use white background */
+  border-radius: var(--card-border-radius); /* Use defined border radius */
+  padding: var(--card-padding); /* Use defined padding */
+  margin: 16px 0; /* Add margin between posts */
+  font-size: 0.85rem;
+  line-height: 1.5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+
+/* ======= Post Header ======= */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  gap: 12px;
+}
+
+.profile-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.info small {
+  color: #777;
+}
+
+.edit {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  color: #0d720d; /* Edit Post color */
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+/* ======= Media Content ======= */
+.photo img,
+.video video {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+/* ======= Action Buttons ======= */
+.action-buttons {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  align-items: center;
+  margin-top: 12px;
+  font-size: large;
+}
+
+/* Add spacing between action buttons */
+.interaction-buttons span {
+  margin-right: 12px; /* Adjust this value to increase/decrease the gap */
+}
+
+.interaction-buttons span:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.interaction-buttons span {
+  cursor: pointer;
+}
+
+/* ======= Liked By Section ======= */
+.liked-by {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.liked-by span {
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.caption{
+  display: flex;
+  
+  
+}
+
+
+
+/* ======= Comments Section ======= */
+.comments {
+  cursor: pointer;
+  margin-top: 1px;
+  display: flex;
+}
+
+.comment-section {
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.comment-section input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.comment-section button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0d720d; /* Comment button color */
+  color: #fff;
+  cursor: pointer;
+}
+
+.comment-section button:hover {
+  background-color: #095f09; /* Darker green on hover */
+}
+
+/* ======= Shared By Section ======= */
+.shares {
+  cursor: pointer;
+  margin-top: 5px;
+  display: flex;
+}
+
+/* ======= Hash Tag ======= */
+.harsh-tag {
+  color: #007bff; /* Hashtag color */
+}
